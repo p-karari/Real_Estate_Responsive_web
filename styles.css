@@ -6,8 +6,11 @@
 }
 
 body {
-    font-family: sans-serif;
     font-family:  Calibri, sans-serif;
+}
+
+.nav_section {
+   text-align: center;
 }
 
 .menu_bar{
@@ -65,16 +68,21 @@ body {
 .cover_section {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
+    margin: 40px;
+    /* border: 1px solid red; */
+    height: 35rem;
     /* padding: 1rem; */
 }
 
-.cover_img{
-    
+.cover_img {
+    width: 35rem;
+    height: 38rem;
 }
 
 .cover__img {
-    width: 30rem;
+    width: 100%;
     height: 38rem;
     object-fit: cover;
     padding: 2.5rem;
@@ -87,8 +95,11 @@ body {
 .cover_header {
     display: flex;
     flex-direction: column;
-    width: 40rem;
+    width: 35rem;
     height: 35rem;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* height: 38rem; */
     gap: 3rem;
     /* border: 2px solid goldenrod; */
     /* align-items: baseline;
@@ -106,21 +117,27 @@ body {
     font-size: 1.1rem;
 }
 
+.search__bar {
+    display: flex;
+}
+
 .search_bar {
     /* border: 2px solid yellow; */
-    width: 95%;
+    width: 38rem;
     height: 2.8rem;
     border-radius: 20px;
     margin-right: 1rem;
-    position: relative;
+    /* position: relative; */
     background-color: rgba(214, 207, 207, 0.439);
     border: none;
 }
 
 .search_btn {
-    position: absolute;
+    /* position: absolute; */
+    /* justify-self: flex-end; */
     width: 6rem;
     height: 2.8rem;
+    margin-left: -7rem;
     font-size: 1.5rem;
     padding: 0.5rem;
     border-radius:20px ;
@@ -134,11 +151,10 @@ body {
     /* margin-top: 20px; */
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    align-items: center;
     padding: 5px;
-}
-
-.statistics_description {
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* border: 1px solid red; */
 }
 
 .body_section {
@@ -147,12 +163,21 @@ body {
 
 .featured_listings {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* width: 100%; */
     /* margin: 40px; */
     align-items: center;
     /* border: 2px solid yellow;  */
     padding: 10px;
 
+}
+
+.featured__listings {
+    /* width: 40rem; */
+     display: flex;
+    gap: 20rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .featured_listings_header {
@@ -162,13 +187,15 @@ body {
 }
 
 .featured_listings_description {
-    width: 50%;
+    width: 40rem;
 }
 
 .featured_listings_cards {
     display: flex;
     gap: 1rem;
     margin: 40px 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .featured_listing_card {
@@ -220,4 +247,47 @@ body {
 .svgs {
     width: 25px;
     height: 30px;
+}
+
+.explore_header {
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+.explore_field_btn {
+    /* width: 6.4rem; */
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+.explore_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.explore_card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 20rem;
+    margin: 1.5rem 0;
+    background-color: rgba(223, 221, 219, 0.613);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px rgba(125, 124, 124, 0.623);
+}
+
+.explore_card_img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
 }
