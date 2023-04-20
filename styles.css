@@ -316,6 +316,15 @@ body {
     transform: scale(1.05);
 }
 
+.explore_card_link {
+    color: rgb(4, 98, 113);
+    transition: all 0.2s ease-in;
+}
+
+.explore_card_link:hover {
+    color: rgb(9, 215, 215);
+}
+
 .card_img {
     max-width: 100%;
     height: 100%;
@@ -389,7 +398,78 @@ body {
 
 .trends_info {
     position: absolute;
-    left: 50%;
-    top: 10%;
-    
+    left: 15%;
+    top: 2.5%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+
+.t_head {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.t_body {
+    font-size: 1.2rem;
+    width: 40%;
+}
+
+.trend_btn {
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    font-size: 1.18rem;
+    background-color: rgba(71, 69, 69, 0.093);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.seb_card_header {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+ 
+.sub_card_description {
+    color: rgba(77, 77, 75, 0.825);
+    font-weight: bold;
+}
+
+.pric {
+    color: rgba(77, 77, 75, 0.825);
+
+}
+
+.price_ {
+    font-size: 1.6rem;
+    font-weight: 1000;
+}
+
+.subscribe_btn {
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: rgba(167, 67, 210, 0.867);
+    font-size: 1.3rem;
+    border: none;
+    color: #fff;
+}
+
+.sub_card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.price_div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 3px;
 }
