@@ -441,6 +441,11 @@ body {
     font-weight: bold;
 }
 
+.sub_terms {
+    color: rgba(77, 77, 75, 0.825);
+    font-weight: bold;
+}
+
 .pric {
     color: rgba(77, 77, 75, 0.825);
 
@@ -458,13 +463,17 @@ body {
     font-size: 1.3rem;
     border: none;
     color: #fff;
+    transition: all 0.3s ease-in-out;
 }
 
 .sub_card {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-
+    align-items: center;
+    padding: 20px;
+    gap: 8px;
+    /* border: 1px solid red; */
+    width: 14rem;
 }
 
 .price_div {
@@ -472,4 +481,44 @@ body {
     justify-content: center;
     align-items: baseline;
     gap: 3px;
+}
+
+.subscriptions_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 5px;
+    /* border: 1px solid magenta; */
+    width: 1250px;
+}
+
+.sub_img {
+    width: 28rem;
+    height: 20rem;
+    object-fit: cover;
+    justify-self: flex-start;
+}
+
+.subscriptions_header {
+    text-align: left;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 40px;
+    margin: 40px 0 0 0;
+    padding: 5px;
+    color: rgba(77, 77, 75, 0.825);
+
+}
+
+.sub_header {
+    color: black;
+    text-transform: capitalize;
+    font-weight: 1000;
+}
+
+.subscribe_btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
