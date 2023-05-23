@@ -534,3 +534,75 @@ body {
     cursor: pointer;
     transform: scale(1.05);
 }
+
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin: 40px 0 40px 0;
+}
+
+.about_us__img {
+    width: 35rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+/* .about_us_img {
+    border-radius: 100px;
+} */
+
+.about_us_main_header {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 850;
+}
+
+.about_us_body {
+    line-height: 175%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about_us__body {
+    color: #767575f0;
+    font-weight: 980;
+}
+
+.learn_more_btn {
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: rgba(167, 67, 210, 0.867);
+    font-size: 1.3rem;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    width: 25%;
+    align-self: baseline;
+}
+
+.learn_more_btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
