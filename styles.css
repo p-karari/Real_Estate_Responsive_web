@@ -589,6 +589,88 @@ body {
 }
 
 
+.services_header {
+    text-align: center;
+}
+
+.services_body_description {
+    color: #767575d5;
+    font-weight: 980;
+}
+
+.services_card_svg {
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid rgb(207, 93, 224); */
+}
+
+.services_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    margin:50px ;
+    gap: 8px;
+    /* border: 1px solid crimson; */
+}
+
+.services_card_body {
+    text-align: center;
+    color: #a5a2a2b4;
+    font-weight: 980;
+}
+
+.services_cards_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services_card_header {
+    font-weight: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
